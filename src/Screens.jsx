@@ -57,7 +57,10 @@ export function StartScreen({ start }) {
         damping={0.5}
         delay={1500}
         className="flex flex-col items-center justify-center"
-      >
+        >
+          <p className="text-grey-300 text mb-3 text-s uppercase font-bold">
+            memory
+        </p>
         <p className="text-grey-300 text mb-4 text-xs capitalize">
           powered by mightymeld
         </p>
